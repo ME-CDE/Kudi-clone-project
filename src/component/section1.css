@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:280px) {
+    .section {
+        background-image: url(./Background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100vw;
+        height: 813px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .container1 {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        transform: translateY(19.6%);
+        margin: 0px auto;
+    }
+
+    .col-1 {
+        text-align: left;
+        width: 80vw;
+    }
+
+    .col-1 p {
+        font-size: 16px;
+    }
+
+    .pson {
+        margin-bottom: 22px;
+    }
+    .pson img {
+        height: 16px;
+        margin-right: 10px;
+    }
+
+    .pson p {
+        display: inline;
+    }
+
+    .pson1 {
+        margin-top: 34px;
+    }
+
+    .pson1 h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        width: 116px;
+        height: 48px;
+        background-color: #F29A02;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        margin-top: 60px;
+    }
+
+    .col-2 {
+        background-image: url(./Union1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 75vw;
+        height: 293px;
+        margin: 30.3px auto;
+    }
+}
+
+@media(min-width:1440px) {
+    .container1 {
+        height: 579px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .col-1 {
+        width: 557px;
+    }
+
+    .pson {
+        margin-bottom: 20px;
+    }
+    .pson1{
+        margin-top: 15px;
+    }
+    .pson1 h1 {
+        font-size: 52px;
+        margin-bottom: 15px;
+    }
+
+    .pson1 p {
+        font-size: 24px;
+    }
+
+    .pson1 button {
+        margin-top: 44px;
+        font-weight: 400;
+    }
+
+    .col-2 {
+        background-image: url(./Union.png);
+        width: 632px;
+        height: 579px;
+        margin: 0px;
+    }
+
+}

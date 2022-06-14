@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:280px) {
+    .section4 {
+        width: 100vw;
+        padding: 60px 0px;
+    }
+
+    .container4 {
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+    }
+
+    .container4 h1 {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+    .section4-col {
+        margin-top: 20.75px;
+    }
+    .img {
+        display: none;
+    }
+
+    .main-text {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .suggestion {
+        width: 292.5px;
+        max-width: 90vw;
+        padding-left: 10px;
+        border-left: 1px solid #1F39E0;
+        margin-top: 32.5px;
+    }
+
+    .suggestion h1 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .suggestion p {
+        line-height: 23px;
+        margin-bottom: 15.5px;
+    }
+}
+
+@media(min-width:1440px) {
+    .section4 {
+        padding: 103px 0px;
+    }
+
+    .container4 {
+        width: 1314px;
+        font-size: 28px;
+    }
+
+    .container4 h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .section4-col{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 119px;
+    }
+    .section4-col .img {
+        display: inline-block;
+        background-image: url(./Union3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 463px;
+        height: 626px;
+    }
+    .main-text p{
+        width: 664px;
+        font-size: 24px;
+    }
+    .suggestion-col{
+        width: 763px;
+        display: grid;
+        grid-template-columns:361px 275.5px;
+        grid-row-gap: 91.5px;
+        grid-column-gap: 127px;
+    }
+    .suggestion{
+        width: 276px;
+    }
+    .special{
+        width: 361px;
+    }
+    .suggestion h1 {
+        font-size: 20px;
+    }
+    .suggestion p{
+        font-size: 16px;
+        width: 265px;
+    }
+    .extra-special p{
+        width: 351px;
+    }
+}

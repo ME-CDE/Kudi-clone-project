@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section6{
+    width: 100vw;
+    background: transparent linear-gradient(180deg, #021E53 16%, #022759 30%, #032C5D 35%, #1E65FF 100%) 0% 0% no-repeat padding-box;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.container6{
+    width: 100vw;
+}
+.container6 p{
+    font-weight: 100;
+}
+.contact{
+    width: 90vw;
+    margin: auto;
+    padding: 60px 0px 50px;
+    font-size: 16px;
+    display: grid;
+    grid-row-gap: 31.5px;
+}
+.contact h1{
+    font-size: 20px;
+    margin-bottom: 10.5px;
+}
+.specialp {
+    line-height: 22px;
+}
+.specialbox{
+    height: 19px;
+    margin-bottom: -11px;
+}
+.contact-1 img{
+    width: 153px;
+    height: 55px;
+}
+.box{
+    border-top: 1px solid #707070;
+    width: 323px;
+    max-width: 75.47vw;
+    padding: 28.5px 0px 0px;
+    display: grid;
+    grid-row-gap: 20px;
+}
+.img-div{
+    display: flex;
+    flex-direction: row;
+}
+.img-div img{
+    width: 16px;
+    height: 22px;
+    margin-right: 14.8px;
+}
+.emails img{
+    width: 17px;
+height: 14px;
+}
+.img-div .paragraph{
+    display: inline;
+    width: 244px;
+    max-width: 66.6vw;
+}
+.list-div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.color-div{
+    width: 14px;
+height: 14px;
+background-color: #F29A02;
+margin-right: 8px;
+}
+.footer{
+    width: 100vw;
+    color: white;
+    padding-bottom: 60px;
+}
+.footer-div{
+    width: 90vw;
+    margin: auto;
+}
+
+.social-ico-list{
+    display: flex;
+    align-items: flex-start;
+    
+}
+.brand{
+height: 18px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-left: 15px;
+}
+.social-icons1{
+    width: 10px;
+background-image: url(./facebook.png);
+}
+.social-icons2{
+    width: 18px;
+    background-image: url(./instagram.svg);
+}
+.social-icons3{
+    width: 20px;
+    background-image: url(./twitter.svg);
+}
+
+.download{
+    width: 330px; 
+    max-width: 77.1vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+.store{
+    width: 149px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: #1F39E0;
+}
+.app-icons{
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-right: 5px;
+}
+.apple-icon{
+    width: 24px;
+    height: 28px;
+    background-image: url(./apple.svg);
+}
+.play-icon{
+    width: 26px;
+    height: 26px;
+    background-image: url(./google-play.svg);
+}
+.app-text{
+    width: 88px;
+}
+.app-text p{
+    font-size: 19px;
+}
+.app-text small{
+    font-size: 10px;
+}
+@media(min-width:1440px){
+    .section6{
+        background: none;
+    }
+    .container6{
+        background: transparent linear-gradient(180deg, #021E53 16%, #022759 30%, #032C5D 35%, #1E65FF 100%) 0% 0% no-repeat padding-box;
+    }
+    .contact{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 0px;
+        grid-column-gap: 37px;
+    }
+    .contact1{
+        width: 286px;
+    }
+    .box{
+        width: 286px;
+    }
+    .footer{
+        background-color: #1F39E0;
+        padding: 0px;
+    }
+    .footer-div{
+        height: 86px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .download{
+        margin-top:0px ;
+    }
+    .img-div .skype{
+        width: 117px;
+    }
+}
